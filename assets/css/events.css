@@ -1,0 +1,30 @@
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+
+
+.btn-interest {
+    background-color: #fb00ff;
+    color: white;
+    border: 1px solid #fb00ff;
+}
+
+.btn-interest:hover {
+    background-color:yellow;
+    color: #212529;
+    border: 1px solid yellow;
+}
+
+.btn-calendar {
+    background-color:#00DBFF ;
+    color: black;
+    border: 1px solid #00DBFF;
+}
+
+.btn-calendar:hover {
+    background-color: #218838;
+    color: #fff;
+    border: 1px solid #218838;
+}

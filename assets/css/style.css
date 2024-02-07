@@ -381,7 +381,7 @@ video {
 }
 
 .banner-bottom {
-    background-image: url('/images/ron.jpg');
+    background-image: url('../images/ron.jpg');
     height: 500px;
     background-attachment: fixed;
     width: 100%;
@@ -391,7 +391,7 @@ video {
 }
 
 .banner-middle {
-    background-image: url('/images/ron.jpg');
+    background-image: url('../images/ron.jpg');
     height: 800px;
     background-attachment: fixed;
     width: 100%;

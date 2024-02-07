@@ -1,0 +1,85 @@
+.league-nav {
+  background-color: #514b4b;
+  border-radius: 20px;
+}
+
+.league-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.league-nav li {
+  margin-right: 20px;
+  padding: 10px 20px;
+  border-right: 2px solid white;
+}
+
+.league-nav li:last-child {
+  margin-right: 0;
+  border: none;
+}
+
+.league-nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.league-nav li a:hover {
+  color:  #00DBFF;
+}
+.league-overview{
+  overflow: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.rank {
+  width: 5%;
+}
+
+.team {
+  width: 25%;
+}
+
+.matches {
+  width: 10%;
+}
+
+.points {
+  width: 8%;
+}
+
+.wins, .draws, .losses, .goals-scored, .goals-conceded, .goal-difference {
+  width: 9%;
+}
+
+
+
+ .league-overview .row div .card-img-top {
+  height: 200px; 
+  width:200px;
+  object-fit: cover; 
+}
