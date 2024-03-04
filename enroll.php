@@ -1,5 +1,4 @@
 <?php 
-$props='';
 include('header.php') ?>
 
 <div class="container-fluid z-depth-1  px-0">
@@ -13,11 +12,12 @@ include('header.php') ?>
             <form class="mx-md-5" action="enrollment_process.php" method="POST" enctype="multipart/form-data">
 
                 <div class="row">
+                <p class="text-white">Already had account? <a href="./login.php">login </a> here.</p> 
+
                     <div class=" mb-4">
 
                         <div class="card">
                             <div class="card-body px-4">
-
                                 <div class="md-form md-outline mt-0">
                                     <label for="name">Your Full Name</label>
                                     <input type="text" id="name" name="name" class="form-control" required>
@@ -92,7 +92,7 @@ include('header.php') ?>
                                         class="md-textarea form-control" rows="3"></textarea>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary btn-md btn-block ml-0 mb-0">Submit
+                                <button type="submit" class=" mt-5 btn btn-primary btn-md btn-block ml-0 mb-0">Submit
                                     Enrollment</button>
 
                             </div>
@@ -100,8 +100,6 @@ include('header.php') ?>
 
                     </div>
                     <div class="col-md-5 offset-md-1 mt-md-4 mb-4 text-white">
-
-                        <!-- Address and contact  -->
 
                     </div>
                 </div>

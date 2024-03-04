@@ -10,8 +10,8 @@
 					
 					<div class="container d-flex flex-column justify-content-center " style="height:100vh ;width:100%">
 						<div class="mb-3 ">
-							<div class="home-slider__badge"><span>Be there!</span></div>
-							<h1 class="display-5 mb-3" style="margin-top:-10px">
+							<div class="home-slider__badge"><span>Be there!</span></div><br>
+							<h1 class="display-5 mb-3" style="margin-top:-10px; display:inline-block;">
 								Master the Art of<br> <span>Fine Defending</span>
 							</h1>
 							<p class="lead">Explore the art of defending with Maguire's Academy and refine your skills

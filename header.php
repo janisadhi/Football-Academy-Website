@@ -52,7 +52,7 @@
 						</li>
 					</ul>
 					<!-- <button type="button" class="btn s-btn  ms-3">Join Now</button> -->
-					<a href="./enroll.php" title="user"><i class="fas  fa-user" style="color:#00dbff; border: 2px solid #00dbff;margin-left:10px; padding:5px; border-radius:50px;"></i></a>
+					<a href="./login.php" title="user"><i class="fas  fa-user" style="color:#00dbff; border: 2px solid #00dbff;margin-left:10px; padding:5px; border-radius:50px;"></i></a>
 
 				</div>
 			</div>

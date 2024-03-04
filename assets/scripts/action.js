@@ -1,4 +1,3 @@
-console.log("hello");
 document.addEventListener('DOMContentLoaded', function () {
     var texts = ["Strategic Play", "Precision Passing", "Defensive Mastery"];
 
